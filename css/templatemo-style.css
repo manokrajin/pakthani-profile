@@ -215,7 +215,7 @@ h1,h2,h3,h4,h5
 /* start work */
 #work
     {
-        background: #1a1a1a;
+        background: white;
     }
 #work h2
     {
@@ -229,9 +229,9 @@ h1,h2,h3,h4,h5
 	
 #work .media .fa
     {
-        border: 2px solid #ffffff;
+        border: 2px solid #e2cc23;
         border-radius: 50%;
-        color: #D43F52;
+        color: #e2cc23;
         font-size: 24px;
         margin-right: 24px;
         width: 60px;
@@ -243,7 +243,7 @@ h1,h2,h3,h4,h5
     }
 #work .media .fa:hover
     {
-        background: #ffffff;
+        background: whitesmoke;
         cursor: pointer;
     }
 #work .media .media-heading
@@ -251,19 +251,23 @@ h1,h2,h3,h4,h5
         font-weight: 600;
         font-size: 20px;
         padding-bottom: 10px;
+        color: #000000;
     }
 /* end work */
 
 /* start about */
+#about{
+    background-color: whitesmoke;
+}
 #about h4
     {
         padding: 15px 0;
-		color: #D43F52;
+		color: black;
     }
 #about .progress
     {
         border-radius: 4px;
-        background: #ffffff;
+        background: black;
         height: 4px;
     }
 #about .progress .progress-bar-danger
@@ -276,7 +280,7 @@ h1,h2,h3,h4,h5
     }
 #about span
     {
-        color: #ffffff;
+        color: black;
         font-weight: bold;
         display: block;
         padding-bottom: 6px;
@@ -291,7 +295,7 @@ h1,h2,h3,h4,h5
 /* start portfolio */
 #portfolio
     {
-        background: #1a1a1a;
+        background: white;
         text-align: center;
     }
 #portfolio h2
